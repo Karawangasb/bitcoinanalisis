@@ -1,0 +1,47 @@
+saya sedang mengananalisis kurva bitcoin dan mengsahilkan 
+Private Key Hex: 0000000000000000000000000000000000000000000000000000000000000001
+Public Key C: 0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798
+Public Key U  0479be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798 483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8
+
+---
+Private Key Hex: fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140
+Public Key C: 0379be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798
+Public Key U: 0479be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798 b7c52588d95c3b9aa25b0403f1eef75702e84bb7597aabe663b82f6f04ef2777
+--------------------------------------------------------
+
+Private Key Hex: 7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0 							
+Public Key C: 0300000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63
+Public Key U: 0400000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63 3f3979bf72ae8202983dc989aec7f2ff2ed91bdd69ce02fc0700ca100e59ddf3
+-------------------------------------------------------------------------------
+Private Key Hex: 7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a1
+Public Key C: 0200000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63
+Public Key U: 0400000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63 c0c686408d517dfd67c2367651380d00d126e4229631fd03f8ff35eef1a61e3c
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Private Key Hex: 0000000000000000000000000000000000000000000000000000000000000002
+Public Key C: 02c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5
+Public Key U: 04c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5 1ae168fea63dc339a3c58419466ceaeef7f632653266d0e1236431a950cfe52a
+-------------------------------------------------------------------------------
+Private Key Hex: fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd036413f
+Public Key C: 03c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5
+Public Key U: 04c6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5 e51e970159c23cc65c3a7be6b99315110809cd9acd992f1edc9bce55af301705
+
+
+Analisis Pola Kunci Publik
+Pasangan Kunci 1 & 2 (Private Key 1 dan n-1)
+
+Private Key 1: 0000...0001
+Public Key: 0279be66... (x = 79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798)
+
+Private Key n-1: ffff...d0364140
+Public Key: 0379be66... (x SAMA, y = b7c52588d95c3b9aa25b0403f1eef75702e84bb7597aabe663b82f6f04ef2777)
+
+Pasangan Kunci 3 & 4 (Private Key n/2 dan n/2 + 1)
+Private Key n/2: 7fff...681b20a0
+Public Key: 030000...9c63 (x = 0)
+
+Private Key n/2 + 1: 7fff...681b20a1
+Public Key: 020000...9c63 (x = 0)
+
+
